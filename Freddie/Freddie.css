@@ -1,0 +1,53 @@
+body{
+  background-image: url(https://wonderfulengineering.com/wp-content/uploads/2016/02/white-wallpaper-30.jpg);
+}
+.H1 {
+	font-family: fantasy;
+	font-stretch: ultra-condensed;
+	color: rgba(255,255,12,1); ;
+    border-bottom: 2px solid red ;
+    border-right: 2px solid red ;
+    margin-left: 30% ; 
+    top: 20px ;
+    width: 400px ;
+    box-shadow: 4px 4px 6px #999999;
+    text-align: center;
+}
+.H2 {
+	color: blue ;
+    border-bottom: 2px solid red ;
+    border-right: 2px solid red ;
+    margin-left: 30% ; 
+    top: 20px ;
+    width: 400px ;
+    box-shadow: 4px 4px 6px #999999;
+    text-align: center;
+}
+.P1{
+	color: red;
+	border: 3px solid black ;
+   border-right:40%; 
+   font-style: italic;
+} 
+
+img{
+	height: 340px ;
+	width: 300px ;
+	transition: all 0.5s ;
+	margin: 20px;
+	
+}
+}
+.Pic{
+		display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	top:50%;
+	left: 60%;
+
+}
+.Pic img:hover {
+	transform: scale(1.1);
+
+}
+
